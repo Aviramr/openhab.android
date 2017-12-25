@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- General app strings -->
+    <string name="main_menu">תפריט ראשי</string>
+    <string name="app_preferences_name">הגדרות</string>
+    <string name="app_notifications">הודעות</string>
+    <!-- Main menu items -->
+    <string name="mainmenu_openhab_preferences">הגדרות</string>
+    <string name="mainmenu_openhab_selectsitemap">בחר מפה ברירת מחדל</string>
+    <string name="mainmenu_openhab_clearcache">רוקן את זיכרון המטמון</string>
+    <!-- App settings strings -->
+    <string name="settings_connection_title">הגדרות חיבור</string>
+    <string name="settings_display_title">הגדרות תצוגה</string>
+    <string name="settings_misc_title">הגדרות אחרות</string>
+    <string name="settings_openhab_url">כתובת שרת פנימי</string>
+    <string name="settings_openhab_url_summary">URL of the openHAB server. When set, auto-discovery is disabled. [% S]</string>
+    <string name="settings_openhab_alturl">כתובת שרת מרוחק</string>
+    <string name="settings_openhab_alturl_summary">URL of an openHAB server outside the local network. Used if no openHAB server was found in the local network. [%s]</string>
+    <string name="settings_openhab_username">שם משתמש</string>
+    <string name="settings_openhab_password">סיסמה</string>
+    <string name="settings_openhab_sslclientcert"> אבטחת SSL</string>
+    <string name="settings_openhab_sslclientcert_howto">הסבר על אישור SSL</string>
+    <string name="settings_openhab_sslclientcert_howto_summary">לקבלת פרטים והסברים לאישור SSL הקש כאן</string>
+    <string name="settings_openhab_screentimeroff">השבת מצב תרדמה</string>
+    <string name="settings_openhab_screentimeroff_summary">משבית את ההפעלה האוטומטית לאחר חוסר פעילות כאשר האפליקציה OpenHAB פועלת</string>
+    <string name="settings_openhab_demomode">מצב דמו</string>
+    <string name="settings_openhab_demomode_summary">השתמש במפת דמו</string>
+    <string name="settings_openhab_theme">עיצוב</string>
+    <string name="settings_openhab_sslcert">התעלם מאישור SSL</string>
+    <string name="settings_openhab_sslcert_summary">עבור לחיצת יד של SSL, קבל את כל התעודות ללא תלות בתוקף שלהן</string>
+    <string name="settings_openhab_sslhost">התעלם משם המארח של SSL</string>
+    <string name="settings_openhab_sslhost_summary">אל תאמת את שם המארח במהלך לחיצת היד של SSL</string>
+    <string name="settings_openhab_fullscreen">מסך מלא</string>
+    <string name="settings_openhab_fullscreen_summary">הסתר את שורת המצב של המכשיר בעת שימוש באפליקציה</string>
+    <string name="settings_openhab_icon_format">פורמט סמלים</string>
+    <string name="settings_ringtone">צלצול</string>
+    <!-- App messages strings -->
+    <string name="title_voice_widget">openHAB-פקודות שפה</string>
+    <string name="info_voice_input">" openHAB, לשירותך!"</string>
+    <string name="info_voice_recognized_text">"פקודה שזוהתה: %1$s"</string>
+    <string name="info_demo_mode">OpenHAB פועל במצב הדגמה. בהגדרות ניתן להגדיר שרת OpenHAB.</string>
+    <string name="info_conn_url">מתחבר לכתובת אתר מקומית</string>
+    <string name="info_conn_rem_url">מתחבר לכתובת אתר מרוחקת</string>
+    <string name="info_discovery">חפש openHAB. המתן \u2026</string>
+    <string name="error_no_url">בדוק אם OpenHAB פועל או שכתובות השרת מוגדרות באופן שגוי.</string>
+    <string name="error_empty_sitemap_list">OpenHAB סיפק רשימה של קובצי Sitemap ריקים</string>
+    <string name="error_network_not_available">הרשת אינה זמינה</string>
+    <string name="error_no_uuid">לא ניתן היה לפתוח את openHAB-UUID, החיבור נכשל</string>
+    <string name="erorr_invalid_url">הזן כתובת אתר חוקית בפורמט \ 'protocol: // host: port / \'.</string>
+    <string name="error_connection_failed">החיבור נכשל</string>
+    <string name="error_connection_sslhandshake_failed">לחיצת יד SSL נכשלה - ייתכן שתזדקק לאישור לקוח חוקי?</string>
+    <string name="title_activity_openhabwritetag">כתוב תג NFC</string>
+    <string name="title_activity_openhabinfo">מידע על openhab</string>
+    <string name="info_write_tag">הצג תג NFC והמתן להודעת האישור</string>
+    <string name="info_write_tag_progress">כתוב תג NFC</string>
+    <string name="info_write_tag_finished">הושלם בהצלחה</string>
+    <string name="info_write_failed">שגיאה בכתיבת תג NFC</string>
+    <string name="info_write_tag_unsupported">התקן זה אינו תומך ב- NFC</string>
+    <string name="info_write_tag_disabled">NFC מושבת. הפעל אותו בתפריט ההגדרות של המכשיר.</string>
+    <string name="info_openhab_version_label">גרסת openhab</string>
+    <string name="info_openhab_apiversion_label">גרסת Rest API openhab</string>
+    <string name="info_openhab_uuid_label">openHAB-UUID</string>
+    <string name="info_openhab_secret_label">openHAB-Secret</string>
+    <string name="info_openhab_gcm_label">סטטוס שרות העברת הודעות של Google Cloud</string>
+    <string name="info_openhab_gcm_not_connected">רישום המכשיר נכשל</string>
+    <string name="info_openhab_gcm_connected">המכשיר רשום במזהה %s</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="nfc_dialog_title">פעולה של תג NFC</string>
+    <string name="info_not_set">לא מוגדר</string>
+    <!-- Strings for MemorizingTrustManager activity -->
+    <string name="mtm_accept_cert">קבל אישור לא ידוע?</string>
+    <string name="mtm_decision_always">תמיד</string>
+    <string name="mtm_decision_once">ייחודי</string>
+    <string name="mtm_decision_abort">להפיל</string>
+    <string name="mtm_notification">אישור לא ידוע</string>
+    <string name="settings_openhab_none">אף אחד</string>
+    <!-- theme -->
+    <string name="theme_name_light">בהיר</string>
+    <string name="theme_name_dark">כהה</string>
+    <string name="theme_name_black">שחור/AMOLED</string>
+    <string name="theme_name_basic_ui">ממשק משתמש בסיסי</string>
+    <string name="theme_name_basic_ui_dark">ממשק משתמש בסיסי כהה</string>
+
+    <!-- nfc toggle -->
+    <string name="nfc_action_on">כדי</string>
+    <string name="nfc_action_off">מ</string>
+    <string name="nfc_action_toggle">מתג</string>
+
+    <!-- drawer -->
+    <string name="drawer_open">פתח אזור Sitemap</string>
+    <string name="drawer_close">סגור את מפת האתר</string>
+    <string name="mainmenu_openhab_voice_recognition">פקודה קולית</string>
+
+    <!-- About -->
+    <string name="about_title">כ</string>
+    <string name="about_license_title">רישיון</string>
+    <string name="about_links">קישורים</string>
+    <string name="about_links_list"><![CDATA[· <a href="https://github.com/openhab/openhab.android">openHAB App Quellcode</a><br><br> · <a href="https://github.com/openhab/openhab.android/issues">Berichte ein Problem</a><br><br> · <a href="http://docs.openhab.org/">openHAB Dokumentation</a><br><br> · <a href="https://community.openhab.org/">Community Forum</a>]]></string>
+    <string name="intro_welcome">ברוכים הבאים ל-openHAB</string>
+    <string name="intro_whatis">A technology and manufacturer independent, open source automation solution for your home</string>
+    <string name="app_intro">הקדמה</string>
+    <string name="intro_themes">עיצובים</string>
+    <string name="intro_themes_description">בחר בין עיצובים שונים</string>
+    <string name="favorites">מועדפים</string>
+    <string name="info_demo_mode_short">פועל במצב דמו</string>
+    <string name="error_http_connection_failed">התקבלה תגובה לא חוקית מ- openHAB. בדוק את OpenHAB (HTTP-Statuscode %d)</string>
+    <string name="error_certificate_not_trusted">אישור SSL אינו מהימן. ייבא את אישור ROOT CA או בטל את אימות התעודה</string>
+    <string name="error_certificate_expired">פג תוקפו של אישור SSL. צור אישור חדש או בטל את אימות התעודה</string>
+    <string name="error_certificate_not_valid_yet">אישור SSL עדיין לא תקף. צור אישור חוקי או בטל את אימות התעודה. אנא בדוק את השעון בטלפון שלך</string>
+    <string name="error_certificate_revoked">בטל אישור SSL. צור אישור חדש או בטל את אימות התעודה</string>
+    <string name="error_http_code_401">האימות נכשל. בדוק את שם המשתמש והסיסמה או את אישור הלקוח (HTTP-Statuscode 401)</string>
+    <string name="error_http_code_403">האימות נכשל. בדוק את שם המשתמש והסיסמה או את אישור הלקוח (HTTP-Statuscode 403)</string>
+    <string name="error_http_code_407">האימות נכשל. בדוק את שם המשתמש והסיסמה או את אישור הלקוח (HTTP-Statuscode 407)</string>
+    <string name="error_http_code_414"> כתובת שרת openHAB ארוכה מדי (HTTP-Statuscode 414)</string>
+    <string name="error_http_code_426">HTTPS נדרש. שנה את כתובת האתר OpenHAB(HTTP-Statuscode 426)</string>
+    <string name="error_http_code_495">אישור לקוח לא חוקי (HTTP-Statuscode 495)</string>
+    <string name="error_http_code_496">נדרש אישור לקוח (HTTP-Statuscode 496)</string>
+    <string name="error_http_code_502">Your reverse proxy got an invalid response from openHAB(HTTP-Statuscode 502)</string>
+    <string name="error_http_code_503">OpenHAB אינו זמין באופן זמני (HTTP-Statuscode 503)</string>
+    <string name="error_http_code_504">Gateway time-out. Your reverse proxy is running, but got no response from openHAB (HTTP-Statuscode 504)</string>
+    <string name="error_http_code_507">OpenHAB אין מספיק זיכרון פנוי עבור (HTTP-Statuscode 507)</string>
+    <string name="error_http_code_511">נדרש אימות רשת (HTTP-Statuscode 511)</string>
+    <string name="error_network_type_unsupported">סוג הרשת (%s) אינו נתמך</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="settings_debug_messages_summary">הודעות מסוימות מכילות מידע נוסף</string>
+    <string name="settings_debug_messages_title">הצג הודעות באגים</string>
+    <string name="error_couldnt_determine_openhab_url">Could not find openHAB URL</string>
+    <string name="error_unable_to_resolve_hostname">Error resolving the host name</string>
+    <string name="set">Put</string>
+    <string name="cancel">עצור</string>
+    <string name="dlg_notification_title">הודעה</string>
+    <string name="settings_no_default_sitemap">לא הוגדרה מפת אתר ברירת מחדל</string>
+    <string name="settings_clear_default_sitemap">אפס את ברירת המחדל של Sitemap</string>
+    <string name="settings_current_default_sitemap">מפת אתר סטנדרטית: %1$s</string>
+</resources>
